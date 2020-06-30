@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="css/appstyle.css">
+        <!--  Include the raphael library from the jslibs directory  -->
+        <script type="text/javascript" src="jslibs/raphael.js"></script>
+        <!--  Use the require.js module loader, and tell it where our main JavaScript file is  -->
+        <script type="text/javascript" data-main="appscripts/main.js" src="jslibs/require.js"> </script>
+        <title>flexbox layout</title>
+    </head>
+
+  <body>
+    <header>Microbe Life</header>
+    <div id='main'>
+
+        <div id="centerDiv" class="fill"> </div>  <!--  <article>   article  </article> -->
+
+        <nav> 
+            <h2>Your scores</h2>
+            <div>
+                <p id="pastScores"></p>
+            </div>
+
+
+
+        </nav>
+
+
+        <aside> 
+
+            <h2>Lifespan</h2> 
+            <div>
+                <p><span id="countdown"></span></p>
+            </div>
+
+            <h2>Score</h2>
+            <div>
+                <p id = "score">0</p>
+            </div>
+
+        </aside>
+
+    </div>
+    <footer>Credits:
+        <p> I did this! </p>
+    </footer>
+  </body>
+</html>
